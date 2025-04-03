@@ -2,7 +2,7 @@ import Notification from "../notification/notification";
 
 export default abstract class Entity {
     protected _id: string;
-    protected Notification: Notification;
+    public Notification: Notification;
 
     constructor() {
         this.Notification = new Notification();
